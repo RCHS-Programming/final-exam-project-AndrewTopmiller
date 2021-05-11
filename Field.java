@@ -16,6 +16,7 @@ public class Field extends World
     public Field()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(350, 100, 1); 
+        super(325, 150, 3); 
+        addObject( new endZone(), 5, 20);
     }
 }

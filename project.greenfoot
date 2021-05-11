@@ -1,21 +1,32 @@
 #Greenfoot properties
-#Mon May 10 08:39:06 EDT 2021
+#Tue May 11 08:06:17 EDT 2021
+target1.type=ClassTarget
 project.charset=UTF-8
-mainWindow.height=358
-editor.fx.0.width=0
+mainWindow.height=350
+editor.fx.0.width=816
 readme.y=10
 readme.x=10
+class.endZone.superclass=greenfoot.Actor
 version=3.0.0
 readme.height=58
+target1.typeParameters=
+world.lastInstantiated=Field
+target1.height=50
+class.endZone.image=download4.jpg
 class.Field.superclass=greenfoot.World
-editor.fx.0.y=0
-mainWindow.y=213
-mainWindow.x=391
-editor.fx.0.x=0
+editor.fx.0.y=-32000
+mainWindow.y=224
+target1.width=80
+mainWindow.x=445
+editor.fx.0.x=-32000
 readme.width=47
-editor.fx.0.height=0
-class.Field.image=field.png.jpg
+editor.fx.0.height=739
+class.Field.image=download (2).jpg
 package.numDependencies=0
-package.numTargets=0
-mainWindow.width=713
+target1.y=0
+target1.x=0
+mainWindow.width=842
+package.numTargets=1
+target1.name=Field
+target1.showInterface=false
 readme.name=@README
