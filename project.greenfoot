@@ -1,5 +1,5 @@
 #Greenfoot properties
-#Tue May 11 08:19:58 EDT 2021
+#Tue May 11 08:27:48 EDT 2021
 readme.name=@README
 target2.name=endZone
 dependency1.from=Field
@@ -9,6 +9,7 @@ target2.y=0
 package.numTargets=2
 target2.x=0
 class.Field.image=download (2).jpg
+class.player.image=rightplayer.png
 target1.height=50
 target1.y=0
 target2.height=50
@@ -24,6 +25,7 @@ readme.y=10
 readme.x=10
 mainWindow.width=1456
 target1.typeParameters=
+class.player.superclass=greenfoot.Actor
 class.endZone.image=123.gif
 target2.width=80
 mainWindow.y=-8
