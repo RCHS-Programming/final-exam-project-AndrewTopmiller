@@ -1,5 +1,5 @@
 #Greenfoot properties
-#Wed May 12 08:04:31 EDT 2021
+#Wed May 12 08:18:27 EDT 2021
 readme.name=@README
 target2.name=Field
 target4.y=0
@@ -12,11 +12,12 @@ target3.y=0
 target3.x=0
 target1.type=ClassTarget
 target3.type=ClassTarget
+class.llll.superclass=greenfoot.Actor
 target2.y=0
 package.numTargets=4
 target2.x=0
 class.Field.image=download (2).jpg
-class.player.image=rightplayer.png
+class.player.image=leftplayer.png
 target1.height=50
 target4.showInterface=false
 class.linebacker.image=linebacker.png
@@ -30,6 +31,7 @@ target3.height=50
 >>>>>>>=4c2e2d4471838af9a012a6f459bc362b9f57d6a7
 class.endZone.superclass=greenfoot.Actor
 target1.showInterface=false
+class.llll.image=rightplayer.png
 target3.typeParameters=
 target1.name=endZone
 editor.fx.0.width=0
