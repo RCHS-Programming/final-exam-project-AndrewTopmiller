@@ -18,6 +18,8 @@ public class Field extends World
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(325, 150, 3); 
         addObject( new endZone(), 15, 75);
-        addObject( new linebacker(), 15, 75);
+        addObject( new linebacker(1), 60, 75);
+        addObject( new linebacker(1), 0, 25);
+        addObject( new linebacker(1), 0, 115);
     }
 }

@@ -8,12 +8,24 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class linebacker extends Actor
 {
+    private int Speed;
+    public linebacker(int setSpeed)
+    {
+        Speed= setSpeed;
+    }
+    
     /**
      * Act - do whatever the linebacker wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
     {
-        // Add your action code here.
-    }    
+      move (Speed);
+     if(isAtEdge())
+     {
+         setLocation( 25, getY());
+         Speed = Speed + 1;
+       }
+     
+    }
 }

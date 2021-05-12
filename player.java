@@ -14,6 +14,21 @@ public class player extends Actor
      */
     public void act() 
     {
-        // Add your action code here.
+        if( Greenfoot.isKeyDown("up") )
+      {
+          setLocation( getX(), getY()-1);
+      }
+       if( Greenfoot.isKeyDown("down") )
+      {
+          setLocation( getX(), getY()+1);
+      }
+       if( Greenfoot.isKeyDown("left") )
+      {
+          setLocation( getX()- 3, getY());
+      }
+       if( Greenfoot.isKeyDown("right") )
+      {
+          setLocation( getX()+ 3, getY());
+      }// Add your action code here.
     }    
 }
