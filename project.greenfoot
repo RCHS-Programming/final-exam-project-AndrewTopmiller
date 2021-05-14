@@ -1,5 +1,5 @@
 #Greenfoot properties
-#Thu May 13 08:05:02 EDT 2021
+#Fri May 14 07:47:38 EDT 2021
 target4.type=ClassTarget
 <<<<<<<=HEAD
 target3.height=50
@@ -35,8 +35,8 @@ target1.type=ClassTarget
 class.llll.image=rightplayer.png
 target1.typeParameters=
 target2.height=50
-target5.y=0
 target4.height=50
+target5.y=0
 target5.x=0
 target1.name=endZone
 target4.y=0
@@ -71,7 +71,7 @@ target2.showInterface=false
 target3.name=llll
 class.llll.superclass=greenfoot.Actor
 class.Field.superclass=greenfoot.World
-project.charset=UTF-8
 target3.width=80
-=\=\=\=\=\=\=
+project.charset=UTF-8
 target4.showInterface=false
+=\=\=\=\=\=\=
