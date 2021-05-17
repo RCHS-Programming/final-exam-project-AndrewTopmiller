@@ -1,5 +1,5 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-
+import java.util.List;
 /**
  * Write a description of class Field here.
  * 
@@ -8,7 +8,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Field extends World
 {
-
+    public int score;
+    public int lives;
     /**
      * Constructor for objects of class Field.
      * 
@@ -18,8 +19,27 @@ public class Field extends World
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(325, 150, 3); 
         addObject( new endZone(), 15, 75);
-        addObject( new linebacker(1), 60, 75);
         addObject( new linebacker(1), 0, 25);
         addObject( new linebacker(1), 0, 115);
+        addObject( new linebacker(1), 100, 75);
+        addObject( new llll(), 300, 75);
     }
+    public void resetLinebackers()
+    {
+        List<linebacker> backers = getObjects(linebacker.class);
+        removeObjects(backers);
+        addObject( new linebacker(1), 0, 25);
+        addObject( new linebacker(1), 0, 115);
+        addObject( new linebacker(1), 100, 75);
+        
+    }
+    public void gameover()
+    {
+        if(lives = 0)
+        {
+            addObject( new gameover(), 200, 200);
+        }
+        
+    }
+
 }
