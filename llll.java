@@ -56,6 +56,15 @@ public class llll extends Actor
            
             
          }
+         if(lives == 0)
+         {
+             getWorld(). addObject( new gameover(), 170, 81);
+             
+         }
+         if(score == 4)
+         {
+             getWorld(). addObject( new winner(), 170, 81);
+         }
          
     }
 }

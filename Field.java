@@ -10,6 +10,7 @@ public class Field extends World
 {
     public int score;
     public int lives;
+   
     /**
      * Constructor for objects of class Field.
      * 
@@ -23,7 +24,10 @@ public class Field extends World
         addObject( new linebacker(1), 0, 115);
         addObject( new linebacker(1), 100, 75);
         addObject( new llll(), 300, 75);
+       
     }
+    
+
     public void resetLinebackers()
     {
         List<linebacker> backers = getObjects(linebacker.class);
@@ -33,13 +37,6 @@ public class Field extends World
         addObject( new linebacker(1), 100, 75);
         
     }
-    public void gameover()
-    {
-        if(lives = 0)
-        {
-            addObject( new gameover(), 200, 200);
-        }
-        
-    }
+    
 
 }

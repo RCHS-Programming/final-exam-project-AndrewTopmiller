@@ -1,24 +1,19 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class gameover here.
+ * Write a description of class winner here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class gameover extends Actor
+public class winner extends Actor
 {
-    public gameover()
-    {
-        
- 
-    }
     /**
-     * Act - do whatever the gameover wants to do. This method is called whenever
+     * Act - do whatever the winner wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
     {
-        
+        // Add your action code here.
     }    
 }

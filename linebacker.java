@@ -26,6 +26,7 @@ public class linebacker extends Actor
          setLocation( 25, getY());
          Speed = Speed + 1;
        }
+    
    
      
      
